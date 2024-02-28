@@ -1,0 +1,53 @@
+body {
+    background-image: url("space.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.3); /* 30% opacity */
+    max-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+#increment-btn {
+    background: #2C2891;
+}
+
+#save-btn {
+    background: #1C7947;
+}
+
+#save-el {
+    font-weight: bold;
+}
+
